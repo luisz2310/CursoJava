@@ -31,14 +31,11 @@ public class Clase2
        int num2 = sc2.nextInt();
        int res=num1*num2;
        System.out.println("El resultado es: "+ res );
-       
-    
-       
-    
+           
     }
    
-   
-   
-   
-   
+   public void OperacionBeto(){
+       //TODO
+   }
+
 }
