@@ -17,4 +17,8 @@ public class Clase2
         System.out.println(5 + ( (c + 1 + 1) / 10 )  *  5);
         System.out.println(5 + c + 1 + 1 / 10  *  5);
    }
+   
+   public void OperacionBeto(){
+       //TODO
+   }
 }
