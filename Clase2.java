@@ -17,4 +17,17 @@ public class Clase2
         System.out.println(5 + ( (c + 1 + 1) / 10 )  *  5);
         System.out.println(5 + c + 1 + 1 / 10  *  5);
    }
+    public void suma(){
+        
+        int num1, num2, suma;
+        
+        Scanner input = new Scanner(System.in);
+        System.out.println("Ingrese primer numero ");
+        num1 = input.nextInt();
+        System.out.println("Ingrese segundo numero");
+        num2 = input.nextInt();
+        
+        suma= num1 + num2;
+        System.out.println("La suma es"+ suma);
+    }
 }
