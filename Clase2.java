@@ -35,9 +35,7 @@ public class Clase2
    }
    
     public void suma(){
-        
         int num1, num2, suma;
-        
         Scanner input = new Scanner(System.in);
         System.out.println("Ingrese primer numero ");
         num1 = input.nextInt();
