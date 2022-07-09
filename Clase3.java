@@ -21,6 +21,7 @@ public class Clase3
     <
     >=
     <=
+    restriccion usar printf
    */
    public void sam(){
        
