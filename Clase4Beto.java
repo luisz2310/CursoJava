@@ -13,6 +13,7 @@ public class Clase4Beto
         int thisIsAVariable = 0;
         int q76354 = 0;
         int number  = 0;
+        int _test = 0;
         
         Scanner input = new Scanner(System.in);
         int value = input.nextInt();
