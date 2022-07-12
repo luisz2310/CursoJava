@@ -8,6 +8,10 @@
 public class Conflictos
 {
     public static void main(String args[]){
-        
+        int sam = 1;        
+    }
+    
+    public void sam(){
+    
     }
 }
