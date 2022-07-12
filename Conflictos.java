@@ -1,4 +1,3 @@
-
 /**
  * Write a description of class Conflictos here.
  *
@@ -8,6 +7,11 @@
 public class Conflictos
 {
     public static void main(String args[]){
-        
+      float beto = 500; 
     }
+    
+    public void sam(){
+        //Hola a todos     
+    }    
+    
 }
