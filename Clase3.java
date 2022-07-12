@@ -23,7 +23,31 @@ public class Clase3
     <=
     restriccion usar printf
    */
-   public void sam(){  
+   public void sam(){
+       Scanner sc1 = new Scanner(System.in);
+       System.out.printf("%s","Ingresa  Primer numero: ");
+       int num1= sc1.nextInt();
+       Scanner sc2 = new Scanner(System.in);
+       System.out.printf("%s","Ingresa  Segundo numero: ");
+       int num2 = sc2.nextInt();
+       if(num1 == num2){
+            System.out.printf("%d == %d %n", num1, num2);           
+        }
+        if(num1 != num2 ){
+            System.out.printf("%d != %d %n", num1,num2);
+        }
+        if(num1 > num2 ){
+            System.out.printf("%d > %d %n",  num1,num2 );
+        }
+        if(num1 < num2 ){
+            System.out.printf("%d < %d %n", num1, num2);
+        }
+        if(num1 >= num2){
+            System.out.printf("%d >= %d%n", num1, num2);
+        }
+        if(num1 <= num2){
+            System.out.printf("%d <= %d%n", num1, num2);
+        }
    }
    
    public void jess(){
