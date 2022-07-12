@@ -17,8 +17,8 @@ public class Clase4Beto
         Scanner input = new Scanner(System.in);
         int value = input.nextInt();
         System.out.println("This is a Java program");
-        System.out.printf("%s%n%s","This is a Java program","This is a Java program");
-        if(number == 7){
+        System.out.printf("%s%n%s%n","This is a Java program","This is a Java program");
+        if(number != 7){
             System.out.println("The variable number is not equal to 7");
         }
     }
