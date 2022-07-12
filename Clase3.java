@@ -13,7 +13,7 @@ public class Clase3
        c.sam();
        c.jess();
    }
-
+   
    /*LEER 2 NUMEROS Y DECIR LAS COMBINACIONES
     ==
     !=
@@ -23,8 +23,7 @@ public class Clase3
     <=
     restriccion usar printf
    */
-   public void sam(){
-       
+   public void sam(){  
    }
    
    public void jess(){
