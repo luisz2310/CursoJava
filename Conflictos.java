@@ -8,6 +8,11 @@
 public class Conflictos
 {
     public static void main(String args[]){
-        
+        int jess;
+        int todos = 0;
+    }
+    
+    public void  jess(){
+       //jess
     }
 }
