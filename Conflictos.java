@@ -7,11 +7,21 @@
 public class Conflictos
 {
     public static void main(String args[]){
-      float beto = 500; 
+        int sam = 1; 
+        int jess;
+        int todos = 0;
+        float beto = 500; 
     }
     
-    public void sam(){
+    public void sam2(){
         //Hola a todos     
     }    
+
+    public void sam(){
+        
+    }    
     
+    public void  jess(){
+       //jess
+    }
 }
