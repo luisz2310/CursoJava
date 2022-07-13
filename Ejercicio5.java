@@ -20,11 +20,4 @@ public class Ejercicio5
         System.out.printf("%s%d","Product is ", result);
            
     }
-   
- 
-  
-   
-
-   
-   
 }
