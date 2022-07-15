@@ -4,7 +4,7 @@ import java.util.Scanner;
  * Write a description of class 
  *              Ejercicio2 de la pagina 283
  *              Ejercicio 8. 2.14  de la pagina 285
- * @author (your name) 
+ * @author Samantha Mojica 
  * @version (a version number or a date)
  */
 public class Clase6
