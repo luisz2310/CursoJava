@@ -25,7 +25,6 @@ public class Clase5Jessica
         Scanner num3 = new Scanner (System.in);
         int z = num3.nextInt();
     
-        
         result= x*y*z;
         
         System.out.printf("El producto de los numeros es:%d%n", result);
