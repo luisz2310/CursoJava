@@ -19,6 +19,8 @@ public class Ejercicios7v2Sam
         int num2= sc.nextInt();
         System.out.println("Ingrese terce numero: ");
         int num3= sc.nextInt();
+        int suma=(num1+num2+num3);
+        System.out.println("El resultado de la suma es: "+suma);
         int prom= (num1+num2+num3)/3;
         System.out.println("El promedio es: "+prom);
         int mult=num1*num2*num3;
