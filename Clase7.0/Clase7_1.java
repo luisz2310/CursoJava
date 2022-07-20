@@ -23,24 +23,17 @@ public class Clase7_1
        System.out.printf("El Producto es: %d%n", mul);
        int div=number1/number2;
        System.out.printf("La Cociente es: %d%n", div);
+       if (number1 == number2){
+       System.out.printf("%d Estos numeros son iguales  %d%n", number1, number2);
+       }
+       if (number1 < number2) {
+       System.out.printf("%d < %d%n", number1, number2);
+       }
+       if (number1 > number2) {
+       System.out.printf(" Este numero es mayor %d%n", number1);
+       }
     }
    public void class7_2(){
-    Scanner input = new Scanner(System.in);
-       System.out.print("Ingresa el primer entero ");
-       int num1=input.nextInt();
-       System.out.print("Ingresa el segundo entero ");
-       int num2=input.nextInt();
-       if (num1 == num2){
-       System.out.printf("%d Estos numeros son iguales  %d%n", num1, num2);
-       }
-       if (num1 < num2) {
-       System.out.printf("%d < %d%n", num1, num2);
-       }
-       if (num1 > num2) {
-       System.out.printf(" Este numero es mayor %d%n", num1);
-       }
-    }
-   public void class7_3(){
        Scanner input = new Scanner(System.in);
        System.out.print("Ingresa el primer entero ");
        int n1=input.nextInt();
@@ -64,8 +57,8 @@ public class Clase7_1
                 System.out.printf("el menor es: %d%n", n3);
             } else {
                 if (n1 < n3){
-                    System.out.printf("El mayor: %d%n", n2);
-                    System.out.printf("El menor: %d%n", n3);
+                    System.out.printf("El mayor: %d%n", n3);
+                    System.out.printf("El menor: %d%n", n2);
                 }else{
                     System.out.printf("El mayor: %d%n", n1);
                     System.out.printf("El menor: %d%n", n2);
@@ -74,8 +67,8 @@ public class Clase7_1
         } else{
                if (n1 > n3){
                    //6  3
-                System.out.printf("El mayor: %d%n", n3);
-                System.out.printf("El menor: %d%n", n1);
+                System.out.printf("El mayor: %d%n", n2);
+                System.out.printf("El menor: %d%n", n3);
               }else{
                     if(n2 < n3){
                     System.out.printf("El mayor: %d%n", n3);
