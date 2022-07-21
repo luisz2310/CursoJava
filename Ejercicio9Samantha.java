@@ -60,7 +60,7 @@ public class Ejercicio9Samantha
       System.out.println("*****Determinar si el numero es par o impar*****");
       System.out.println("ingrese numero: ");
       int num = sc.nextInt();
-      if((num % 2)==0){
+      if(num % 2 == 0){
           System.out.println("El numero es par");
         }else{
           System.out.println("El numero es impar");
@@ -72,7 +72,7 @@ public class Ejercicio9Samantha
       int numMult1= sc.nextInt();
       System.out.println("Ingrese segundo numero");
       int numMult2= sc.nextInt();
-      if((numMult2 % numMult1)==0){
+      if(numMult2 % numMult1 == 0){
       System.out.println("El numero "+numMult1+" es multiplo de "+numMult2);
       }else{
       System.out.println("Los numeros no son multiplos");
