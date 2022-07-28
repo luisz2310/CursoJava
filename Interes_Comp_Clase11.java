@@ -10,28 +10,20 @@ public class Interes_Comp_Clase11
 {
     public static void main (String args[]){
         Scanner s = new Scanner (System.in);
-        float x1,x2,xf;
-        int u=12;  
-        float interes;
-        float conv1, potencia;
-        potencia=1;
+        double x1=0,x2=0,x3=0,xf,u=12,conv1;
         System.out.println("Introduzca su monto a ahorrar");
-        float C = s.nextFloat();
+        double C = s.nextDouble();
         System.out.println("Introduzca su % de ganancia mensual:");
         float t = s.nextFloat();
         System.out.println("Introduzca el tiempo(año) que guardara su dinero:");
-        int n= s.nextInt();
-        // x = C (1+t/n)nu - C
-        interes=t/100;
-        conv1=u * n;
-        //x1=1+interes/n;
-            while(0<conv1){
-                 potencia = (1+interes/n)* potencia ;
-                 conv1--;
-               // esta acción ase que al valor del exponente se le reste 1
-            }
-         x2= C*(potencia);
-         xf=x2-C;
-        System.out.println("Su capital es de: "+x2);
+        float n= s.nextFloat();
+        //hasta aqui todo ok, muestra el resultado
+        x1=(1+(t/100)/12); 
+        // conv1=n * u; //hasta aqui todo ok exp.  nu
+        conv1=n*u;
+        x2=(Math.pow(x1, conv1));
+        x3=C*(x2);
+        xf=x3-C; 
+        System.out.println("Su capital es de: "+xf);
     }
 }
