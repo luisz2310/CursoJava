@@ -1,3 +1,4 @@
+package curso;
 /**
  * Programa que compara dos números (n y m)
  * y muestra cuál es mayor o si son iguales.

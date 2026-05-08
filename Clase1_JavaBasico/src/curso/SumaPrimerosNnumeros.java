@@ -1,3 +1,4 @@
+package curso;
 /**
  * Programa que imprime los números desde 0 hasta N
  * mostrando cómo se construye un ciclo FOR en 5 pasos.

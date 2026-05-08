@@ -1,3 +1,4 @@
+package curso;
 /**
  * Programa que determina si un número es par o impar.
  */
