@@ -1,0 +1,21 @@
+
+public class SumaPrimerosNnumeros {
+	
+	
+	//ENTRADA  n
+	//SALIDA imprimir desde 0 HASTA N  (0 1 2 3 ... N)
+	
+	public static void main(String arg[]) {
+		
+		int n = 4;
+		
+		
+		for(int e = 0; n >= e; e = e + 1) {
+			System.out.println(e);
+		}
+		
+		System.exit(0);
+		
+	}
+
+}
