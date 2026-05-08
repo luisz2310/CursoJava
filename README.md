@@ -59,10 +59,3 @@ Imprimir números desde 0 hasta N usando un ciclo eficiente.
 
 ---
 
-## 🚀 Resumen general
-
-- `NumeroMayor` → condiciones (if / else if)
-- `NumerosImpares` → operadores matemáticos (%)
-- `SumaPrimerosNnumeros` → ciclos (for)
-
-📌 Estos ejercicios forman la base de la lógica de programación en Java.
