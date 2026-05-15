@@ -1,4 +1,4 @@
-package unidad1;
+package ejercicios.parte1;
 /**
  * Programa que imprime los números desde 0 hasta N
  * mostrando cómo se construye un ciclo FOR en 5 pasos.
